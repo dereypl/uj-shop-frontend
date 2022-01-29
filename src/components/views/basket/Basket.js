@@ -31,8 +31,6 @@ const Basket = () => {
         setPaymentSuccessful(true)
     }
 
-    if (!products.length) navigate('/')
-
     return (
         <Wrapper>
             {paymentSuccessful ?
